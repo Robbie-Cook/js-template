@@ -8,7 +8,7 @@ const repoAddress = 'https://github.com/Robbie-Cook/typescript-starter';
  */
 async function run() {
     // console.log(await NodeHelper.execute(`git clone ${repoAddress} ${yarg}`));
-    console.log(yargs._[0]);
+    console.log(yargs._);
 }
 run();
 //# sourceMappingURL=index.js.map
