@@ -1,5 +1,5 @@
 import * as NodeHelper from "@robbie-cook/node-helper";
-import path from "path";
+const path = require("path");
 const yargs = require('yargs').argv;
 
 
