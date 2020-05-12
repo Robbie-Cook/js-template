@@ -1,11 +1,14 @@
 {
   "name": "@robbie-cook/starter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
+  "bin": "node dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "rm -rf test-output && tsc -p ./tsconfig.json && node dist/index.js --outputDir=test-output"
+    "start": "rm -rf test-output && tsc -p ./tsconfig.json && node dist/index.js --outputDir=test-output",
+    "build": "tsc -p ./tsconfig.json",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,7 @@
   "dependencies": {
     "@robbie-cook/node-helper": "^1.0.0-rc5",
     "@types/node": "^13.13.5",
+    "node": "^14.2.0",
     "npm": "^6.14.5",
     "path": "^0.12.7",
     "tslib": "^1.11.2",
