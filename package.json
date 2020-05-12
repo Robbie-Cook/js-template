@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Robbie-Cook/js-template/issues"
   },
-  "homepage": "https://github.com/Robbie-Cook/js-template#readme"
+  "homepage": "https://github.com/Robbie-Cook/js-template#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "typescript": "^3.8.3"
+  }
 }
