@@ -1,4 +1,4 @@
-# starter
+# Starter
 
 Make a new project without typing it all up by hand
 
